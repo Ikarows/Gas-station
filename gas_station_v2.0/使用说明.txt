@@ -1,0 +1,5 @@
+
+1.可以通过该地址直接打开页面：
+  http://xxx/xxx/?type=gasoline&userAccount=10001&meno=210&pageSize=200
+
+2.默认的请于config.php文件中配置

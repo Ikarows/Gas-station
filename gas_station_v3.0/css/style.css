@@ -1,0 +1,158 @@
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	background: #f5f4f9;
+}
+
+body {
+	font-size: 14px;
+	font-family: "微软雅黑";
+	padding-top: 3.5rem;
+}
+
+li {
+	list-style: none;
+}
+
+.clear {
+	clear: both;
+}
+
+
+.header {
+	text-align: center;
+	font-size: 1rem;
+	height: 3.5rem;
+    line-height: 3.5rem;
+    border-bottom: 1px solid #e0e0e0;
+    font-weight: bold;
+    background: #FFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.reload {
+	width: 2.5rem;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	text-align: center;
+	font-size: .7rem;
+	background: #ccc;
+	opacity: .95;
+	filter:alpha(opacity=95); 
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	position: fixed;
+	bottom: 1.5rem;
+	right: 1.5rem;
+	cursor: pointer;
+	display: inline-block;
+	background: url('../images/reload.png') center top no-repeat;
+	background-size: 100%;
+}
+
+.screening ul {
+	background: #FFF;
+	border-top: 1px solid #e0e0e0;
+	border-bottom: 1px solid #e0e0e0;
+	margin: .5rem 0 .3rem 0;
+}
+
+.screening ul li {
+	width: 50%;
+	float: left;
+	padding: .6rem;
+	border-right: 1px solid #e0e0e0;
+	text-align: center;
+	cursor: pointer;
+}
+
+.screening .type-tab li {
+	width: 25%;
+}
+
+.screening ul li.active {
+	background: #eee;
+}
+
+.screening li:last-child {
+	border-right: none;
+}
+
+.income {
+	text-align: center;
+	margin: .5rem 0;
+	color: #444;
+}
+
+.red {
+	color: red;
+	font-weight: bold;
+}
+
+.list-box {
+	background: #FFF;
+	border-top: 1px solid #e0e0e0;
+	border-bottom: 1px solid #e0e0e0;
+	margin: .5rem 0 .3rem 0;
+}
+
+.list-box .left-data {
+	float: left;
+	text-align: left;
+}
+
+.list-box .right-data {
+	float: right;
+	text-align: right;
+}
+
+.list-box li {
+	line-height: 1.5rem;
+	padding: .8rem;
+	border-bottom: 1px solid #ddd;
+}
+
+.list-box li:last-child {
+	border-bottom: none;
+}
+
+.list-box h1 {
+	font-size: .9rem;
+	font-weight: 500;
+	color: #000;
+}
+
+.list-box p {
+	font-size: .9rem;
+	color: #9b9b9b;
+}
+.list-box .orange {
+	color: #fc8b00;
+}
+
+.list-box ul {
+	display: none;
+}
+
+.list-box .no-data {
+	font-size: 1rem;
+	color: #777;
+	padding: 3rem;
+	text-align: center;
+}
+
+.list-box .small {
+	font-size: .8rem;
+}
